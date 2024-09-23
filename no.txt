@@ -1,0 +1,197 @@
+NOT REVS METHODS
+systeminfo | find /i "install date"
+PROCESS HACKER METHODS 
+- Explorer Method 1(Open Explorer in Process Hacker Scan strings and filter and type in \USERS\ then .exe)
+        - Explorer Method 2 (Open Explorer in Process Hacker Scan strings and filter and type in pcaclient and save it to a txt and open it)
+        - Explorer Method 3 (Open Explorer in Process Hacker Scan strings and filter and type in \USERS\ then .rar)
+        - Explorer Method 3 (Open Explorer in Process Hacker Scan strings and filter and type in C:\ or drive letter)
+        - DPS Method (Open Process Hacker as Administrator Scan for strings and filter and type all of these in!2054/11/22:19:37:58,!2021/10/25:16:59:12,!2052/10/27:02:09:03,!2020/12/26:23:27:40,!2021/11/07:09:55:36)
+ -s DPS 
+
+Moonlight V3 Free (!2054/11/22:19:37:58)
+Eulen (!2021/10/25:16:59:12)
+Typhon Software Solutions V2 (!2020/12/26:23:27:40)
+CipherHub Premium(!2052/10/27:02:09:03)
+Extreme Injector (.exe!2017/10/23:00:10:59)
+RedEngine (.exe!2021/11/07:09:55:36)
+        - SgrmBroker(Open Process Hacker search up SgrmBroker and type in {"ProcessID": then save the results as a txt and upload to  https://echo.ac/sgrm)
+        - Msmpeng.exe (Open Process Hacker as Administrator search up Msmpeng.exe and type in .exe)
+        - Search Indexer(Open Process Hacker as Administrator search up SearchIndexer and then scan then filter then type in c: then type in .exe)
+        - cdpu(Open Process Hacker as Administrator search up cdpu and then scan then filter and type in downloads)
+        - cdpu(Open Process Hacker as Administrator search up cdpu and then scan then filter and type in x_exe_path then contains case sens .exe)
+        - csrss(Open Process Hacker as Administrator search up csrss(go for bigger size file) and then scan then filter and type in c: then filter and type in .exe)
+        - pcasv(Open Process Hacker as Administrator search up pcasv then scan the filter and paste in e,0a000000,Reason,00002100 then save it as a txt and open it)
+        - Browser Method 1(Open Process Hacker search for their main browsers name then type in cdn.discordapp.com/attachments for all their downloaded discord files)
+        - Browser Method 2(Open Process Hacker search for their main browsers name then type in drive.google.com for all their downloaded google files)
+        - Browser Method 3(Open Process Hacker search for their main browsers name then type in mediafire.com/ for all their downloaded media fire files)
+        - Browser Method 4(Open Process Hacker search for their main browsers name then type in mega.nz for all their downloaded mega.nz files)
+        - Browser Method 5(Open Process Hacker search for their main browsers name then type all of these in Eulen, Hammafia, Moonlight, RedEngine, Skivs, Typhon, Ezilax)
+        - registry Click on Filter -> Contains (Case-Insensitive) and type :\ and press enter Then filter (Contains Case Insensitive) FriendlyAppName
+         (registry) Click on Filter -> Contains (Case-Insensitive) and type RASAPI32 (Renamed files)
+         (registry)  Click on Filter -> Contains (Case-Insensitive) and type SIGN.MEDIA (.exes on USB)
+         (registry) Click on Filter -> Contains (Case-Insensitive) and type Volume{ (Cheats on partitions)
+         (registry)  Click on Filter -> Contains (Case-Insensitive) and type #func
+・Go into Process Hacker > Csrss and filter Regex (Case-Insensitive) and filter this "string"
+^c:.+\.(|pif|txt|jpg|lnk|mp4|ico|sys|sys|log|dat|tmp|bat|pif|cmd|comocx|vbs|bat|js|msi|reg|shs|pdf||inf|sys|vb|vbe|wsc|wsf|wsh|pdf|inf|scr|asm|zip|ini||pifhtm|html|xls|ppt|docx|docx|xlsx|dot|xlt|xml|bin|ax|fon|chm|msp|tlb|aspx|asp|cpl|drv|msc|api|app|apl|aup)$
+To find a .exe executed in another drive, simple as going to Csrss and filtering :\ > .exe , taking the drive letter and done.
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+REGEDIT METHODS
+ Press Windows Key + R
+ Type Regedit
+Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store
+
+This Registry Contains all the EXE’s on this users PC (Can show deleted files too sometimes, however, it is all relevant)
+
+Look For “SIGN.MEDIA” - These are usually cheats or not digitally signed executables.
+
+You can also look for any .exe’s found in weird drives like Z, X, L.
+2.Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\
+And
+Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU
+
+This Registry Contains Recently open files. When reading through these you should start with the higher number of registries:
+You should then move on to check the extensions, especially .dll, .exe, and .jar registries.
+3.Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+
+This Registry is another registry where you can access individual file extensions and is a way you can detect clients like NULL.
+4.HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache
+5.Computer\HKEY_CURRENT_USER\SOFTWARE\WinRAR\DialogEditHistory\ArcName
+6.HKEY_CURRENT_USER\SOFTWARE\WinRAR\ArcHistory
+7.Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Recent File List
+8.Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\ShowJumpView
+9.Computer\HKEY_USERS\S-1-5-21-4140603452-1932478776-168934769-1003\SOFTWARE\WinRAR\DialogEditHistory\FindNames
+10.HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched
+11.HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts.dll\OpenWithList -----------(DLL INJECTION CHECK CHEAT)
+12.Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\VolumeInfoCache (shows all drives)
+13.HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bam\State\UserSettings
+14.Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\DirectInput
+15.Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\RADAR\HeapLeakDetection\DiagnosedApplications
+16.HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Persisted
+17.HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths (We will be able to see the written routes in the bar of exploration of the navigator of files of windows (explorer.exe))\
+18.HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowRun (These are registers that show if the user blocks any .exe that has to do with SS or the cheat itself, this is basically an AntiSS-Tool.)
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+CMD PROMPT METHODS
+1) 
+1.Press windows key
+2. type in cmd
+3.type in systeminfo
+4.search for original install date
+this shows u when the pc was last reset
+2)
+1.press windows key
+2.type in cmd and run as admin//
+3. type in “doskey /h > c:\Commands.txt”
+4. open commands.txt on c drive 
+this shows what cmds have been randoskey /h > c:\Commands.txt
+3) tasklist
+1.tasklist
+shows all running tasks
+5) attrib method
+1. cd\
+2. cd $Recycle.bin (sumtime it will be recycled or recycler)
+3.attrib -r -s -h .
+4. dir /s
+Hidden folder is created on each drive called recycled. all deleted files are moved there. og file name and path are in file mapping info
+5.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00000100 >>CreatedFiles.txt
+6.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >>DeletedFiles.txt
+7.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:Change >> RenamedFiles.txt
+8.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00001000 >> OldNames.txt
+9.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00002000 >> newnamefiles.txt
+10.fsutil usn readjournal c: csv | findstr /i /C:.rar /C:.zip /C:.exe /C:.json /C:.txt /C:.lua /D:.exe /D:.rar /D:.zip /D:.json /D:.txt /D:.lua >> JJ.txt  
+then search JJ.txt and then ctrl F and type stream change and find next and look at all the exes that stream change
+11.fsutil usn readJournal c: csv | findstr /i /c:.pf | findstr /i /c:0x80000200 >> pf.txt (deleted prefetch)
+12.fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> stealth2.txt
+13.fsutil usn readjournal c: csv | findstr /i /C:"?" > AntiBypass.txt
+14.fsutil usn readjournal c: csv | findstr /i /c:0x80000102 /c:0x80000006 | findstr /i /c:.pf >> wmic.txt
+15.fsutil usn readJournal c: csv | findstr /i /C:.exe | findstr /i /C:delete >> client.txt
+16.fsutil usn readjournal c: csv | findstr /i /c:.meta | findstr /i /c:0x80000200 >> DeletedMeta.txt (edited ai folder)
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+POWERSHELL METHODS
+1) Get-ChildItem -path $Directory -Recurse -Include .exe
+get-service | where-object {$_.status -eq 'stopped'}
+(Do Windows+R search "PowerShell.exe"
+Type in the commands click enter and look for cheats when results pop up) 
+2)Get-WinEvent Microsoft-Windows-Kernel-PnP/Configuration | findstr 410 > usb.log
+3)In case you want to see the status of the basic services: get-service | findstr -i "pcasvc"; get-service | findstr -i "DPS"; get-service | findstr -i "Diagtrack"; get-service | findstr -i "sysmain"; get-service | findstr -i "eventlog"; get-service | findstr -i "sysmain"; get-service | findstr -i "eventlog"
+4)In case you want to see all stopped services: get-service | where-object {$_.status -eq 'stopped'}
+5)With this command we will be able to control the actions of windows services like for example to see if a service was stopped/disabled with date and time, this can be useful in terms of cheats that use selfdestructs that can terminal services like dps or pcasvc.
+
+Open powershell and enter the following command: get-eventlog -source "Service Control manager" -logname System | select message, timegenerated, username | out-gridview
+6)Get-ChildItem -Path $shareName | Where-Object { $_.psIsContainer -eq $true }
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+EVENT VIEWER
+ (applications and services)
+1)Microsoft-Windows-Partition/Diagnostic (everytime a usb is plugged in)
+
+2)Microsoft-Windows-Kernel-PnP/Device Configuration (check what was deleted)
+
+3)Microsoft-Windows-StorageSpaces-Driver/Operational
+
+4)Microsoft-Windows-VolumeSnapshot-Driver/Operational
+
+5)Windows Logs - Application and we will filter the ID 3079 shows when readjournal was deleted
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+WINDOWS R METHODS
+
+1)- Path which lists recent files we have opened and/or accessed.
+
+- Windows + R = shell:recent.
+
+- We will analyze the results.
+(*Sometimes this is blank for configuration and optimization reasons, it is recommended to ignore it.)
+
+2)- This serves to see the options that we have on the windows folders, this option can be useful to show hidden folders or as it is well known, the recycle garbage can.
+
+- Windows + R = Control folders, then in "view" and we will deactivate the option called: hide system protected files (recommended) and show folders, applications and disks
+
+3)- This is accessible through the control panel or with the regedit path below, it serves to show the applications, drivers, dll distributions, etc. that we have in the pc.
+
+- Windows + R = appwiz.cpl
+
+4)- Path which shows applications, files that we have moved, edited and/or opened since a date to select.
+
+- Windows + R = C:\Users\%USERNAME%\AppData\Local\Microsoft\Windows\History
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+SIMPLE SHIT
+press windows tab (only for windows ten) and scroll thru looking for suspicious files
+
+press windows r and type in prefetch
+scroll thru looking for weird exe files or loaders/injectors (as well as lua injectors/files)
+
+press windows r and type in recent
+look thru their recently opened files for anything suspicious
+
+press windows and type in winrar
+open winrar and search thru their rar files for anything suspicious
+
+check their recycle bin
+
+go to their fivem app, right click and click open file location
+press fivem app data, citizen, common, data and look for an ai folder 
+
+go thru their discord messages wit mee6, ticket tool, carl bot, numba 3#0429 and scroll thru their servers
+
+search for chrome, opera, brave, firefox, explorer, and microsoft edge browsers
+open all browsers they have
+on each browser go thru their history, downloads, passwords, and email on their main browser
+things to search for are eulen, moonlight, xanware, kekhack, redengine, hammafia, goofball, skivs, typhon, injector, loader, fivem, mod menu, cheats, hacks, desudo, executor, cheatengine, ezilax, skript
+
+go to their windows security settings and check their protection history, look at the file name of any quarintined threats
+
+download lastactivityview and search for any exes ran right before or after fivem.exe was opened (injectors can be renamed to anything so check all exes opened before or after fivem except system32 exes)
+
+check google drive
+
+check mega.nz
+
+browsinghistoryview to check drive names
+
+newvolume means new storage drive
+
+look for public.rar or weknockemdownlikeitsdominos.exe (redengine)
+
+pc check downloads link:https://www.mediafire.com/file/sde9k7opqi3f8x5/JJ_pc_check.rar/file
+
+
+systeminfo|find /i "Original Install Date"
